@@ -83,11 +83,10 @@ public class EfTxBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TRe
 
                     return response;
                 }
-                catch (System.Exception e)
+                finally
                 {
                     if (isInnerTransaction == false)
                         await transaction.RollbackAsync(cancellationToken);
-                    throw;
                 }
             });
         }

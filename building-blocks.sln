@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Web", "src\B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Shared", "tests\Tests.Shared\Tests.Shared.csproj", "{B27A8BA3-5D8E-40BE-A8B9-EA09F90A0288}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Persistence.EfCore.Postgres", "src\BuildingBlocks.Persistence.EfCore.Postgres\BuildingBlocks.Persistence.EfCore.Postgres.csproj", "{EBDDD41E-57CF-48BC-A41A-60190FDF41E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,7 @@ Global
 		{5C75D4EF-9585-4766-9499-FC08375E605D} = {E998FD4F-C6D7-4B16-B607-28B9EE834B68}
 		{8B335BBF-15AE-4049-9FA7-E8CCA3E3A4F5} = {E998FD4F-C6D7-4B16-B607-28B9EE834B68}
 		{B27A8BA3-5D8E-40BE-A8B9-EA09F90A0288} = {1DD80F5D-B10D-454B-AB39-7D3688BA9EAA}
+		{EBDDD41E-57CF-48BC-A41A-60190FDF41E3} = {E998FD4F-C6D7-4B16-B607-28B9EE834B68}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A22963EB-9353-4525-82D5-5F4A1F50BE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -123,5 +126,9 @@ Global
 		{B27A8BA3-5D8E-40BE-A8B9-EA09F90A0288}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27A8BA3-5D8E-40BE-A8B9-EA09F90A0288}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27A8BA3-5D8E-40BE-A8B9-EA09F90A0288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDDD41E-57CF-48BC-A41A-60190FDF41E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDDD41E-57CF-48BC-A41A-60190FDF41E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDDD41E-57CF-48BC-A41A-60190FDF41E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDDD41E-57CF-48BC-A41A-60190FDF41E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
